@@ -1,8 +1,6 @@
 {
   "rewrites": [
-    { "source": "/p/https:/:url*", "destination": "https://:url*" },
-    { "source": "/p/https:/:url*/", "destination": "https://:url*/" },
-    { "source": "/p/http:/:url*", "destination": "http://:url*" },
-    { "source": "/p/http:/:url*/", "destination": "http://:url*/" }
+    { "source": "/p/:url*", "destination": "https://:url*" },
+    { "source": "/p/:url*/", "destination": "https://:url*/" }
   ]
 }
